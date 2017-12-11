@@ -3,13 +3,13 @@ h1 {color:#272727;
 
 body {background-color: #282828;
 	color: #01ff6b;
-	font-size: 200%;
-	font-family: "Comic Sans MS", Comic Sans, cursive;
+	font-size: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 p {
 	border: 10px solid #ee3e80;
-	padding: 10px;
+	padding: 4px;
 	width: 1800px;
 	border-radius: 500px;
 	-moz-border-radius: 10px;
@@ -35,5 +35,6 @@ h1 {
 a {
 	background-color: #282828;
 	color: #01ff6b;
-	font-size: 200%;
+	font-size: 50%;
+	text-align: middle;
 }
