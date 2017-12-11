@@ -8,9 +8,9 @@ body {background-color: #282828;
 }
 
 p {
-	border: 10px solid #ee3e80;
+	border: 5px solid #ee3e80;
 	padding: 4px;
-	width: 1800px;
+	width: 1600px;
 	border-radius: 500px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -30,11 +30,12 @@ p{
 h1 {
 	color: #01ff6b;
 	font-family: "Comic Sans MS", Comic Sans, cursive;
+	text-decoration: underline;
 }
 
 a {
 	background-color: #282828;
 	color: #01ff6b;
-	font-size: 50%;
+	font-size: 85%;
 	text-align: middle;
 }
