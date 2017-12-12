@@ -39,6 +39,21 @@ ul {list-style-type: none;
 	background-color: #282828;
 }
 
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
 li {float: left;
 }
 
