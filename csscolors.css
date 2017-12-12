@@ -7,14 +7,6 @@ body {background-color: #282828;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-p {
-	border: 5px solid #ee3e80;
-	padding: 4px;
-	width: 1600px;
-	border-radius: 500px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
 
 p.one {
 	-moz-box-shadow: -5px -5px #777777;
