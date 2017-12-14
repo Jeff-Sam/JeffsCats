@@ -1,10 +1,10 @@
 h1 {color:#272727;
 }
 
-body {background-color: #282828;
-	color: #01ff6b;
+body {background-color: #141414;
+	color: #ffffff;
 	font-size: 100%;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -15,18 +15,17 @@ p.one {
 }
 
 p{
-	background-color:#282828;
-	font-family: "Comic Sans MS", Comic Sans, cursive;
+	background-color:#09090a;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1 {
-	color: #01ff6b;
-	font-family: "Comic Sans MS", Comic Sans, cursive;
-	text-decoration: underline;
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a {
-	background-color: #282828;
+	background-color:#141414;
 	color: #01ff6b;
 	font-size: 85%;
 	text-align: middle;
@@ -36,10 +35,11 @@ ul {list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: show;
-	background-color: #282828;
+	background-color: #141414;
+	text-align: center;
 }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes fadein {
   from {
     opacity: 0;
   }
@@ -49,9 +49,12 @@ ul {list-style-type: none;
   }
 }
 
-.fadeIn {
-  -webkit-animation-name: fadeIn;
+li a, .fadein {
+  -webkit-animation-name: fadein;
  -webkit-animation-duration: 2s;
+ text-align: center;
+ -webkit-transition: opacity 2s ease-in;
+
 }
 
 li {float: left;
